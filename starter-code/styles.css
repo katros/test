@@ -1,0 +1,66 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Source Sans Pro';
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 35px;
+}
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+  
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.top-left {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.city-section {
+    margin: 0 auto;
+    width: 70%;
+}
+
+header {
+    background-image: url("images/city-scape.svg");
+    height: 605px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.search {
+    height: 56px;
+}
+
+.logo {
+    height: 26px;
+    margin: 15px 0 0 20px;
+}
+
+
+
